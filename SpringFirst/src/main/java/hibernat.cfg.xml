@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class=" Mapping.SpringProject.Employee" name="emp">
+		<property name="id">
+			<value>122></value>
+		</property>
+
+		<property name="ename">
+			<value>Ajju></value>
+		</property>
+
+		<property name="comname">
+			<value>Railworld></value>
+		</property>
+
+
+		<property name="sallry">
+			<value>34222></value>
+		</property>
+
+
+	</bean>
+
+</beans>
