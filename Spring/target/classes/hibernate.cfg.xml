@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans.xsd">
+         
+                           <bean  class="com.Spring.Address" name="add">
+
+                                    <property name="rno"> <value>123</value></property>
+                                    <property name="name"> <value>"Ajay"</value></property>
+                                    <property name="schname"> <value>"The sage"</value></property>
+
+                      </bean>
+                                    
+                                    
+                             <bean  class="com.Spring.Employee" name="emp" autowire="byName">
+
+                                    <property name="eid"> <value>1213</value></property>
+                                    <property name="salrry"> <value>34000</value></property>
+                                    <property name="name"> <value>"Ajay Bisen"</value></property>
+                                    
+                      </bean>
+                                 
+                            </beans>
+
+
