@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+         
+         <context:annotation-config/>
+         
+                     <bean  class="Com.Springouto.Address" name="add1">
+
+                                    <property name="rno"> <value>13</value></property>
+                                    <property name="name"> <value>"ajju"</value></property>
+                                    <property name="schname"> <value>" sage"</value></property>
+
+                      </bean>
+         
+         
+                      <bean  class="Com.Springouto.Address" name="add">
+
+                                    <property name="rno"> <value>123</value></property>
+                                    <property name="name"> <value>"Ajay"</value></property>
+                                    <property name="schname"> <value>"The sage"</value></property>
+
+                      </bean>
+                      
+                                    
+                                    
+                             <bean  class="Com.Springouto.Employee" name="em">
+
+                                    <property name="eid"> <value>12</value></property> 
+                                    <property name="salrry"> <value>34000</value></property>
+                                    <property name="name"> <value>"Ajay Bisen"</value></property>
+                                    
+                             </bean>
+                                 
+                     </beans>
