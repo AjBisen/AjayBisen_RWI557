@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans.xsd">
+         
+         
+                  <bean  class="Spring.StudentTable.Student" name="stut">
+         
+                                    <constructor-arg value ="123" />
+                                    <constructor-arg value ="Ajay" />
+                                    
+                                    <constructor-arg value ="89" />
+                                    <constructor-arg value ="79" />
+                                    <constructor-arg value ="90" />
+                                 
+         
+         
+         </bean>
+         
+</beans>
