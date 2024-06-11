@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+        
+        
+                 <bean  class="Com.SpListSetMap.Emp" name="emp1">
+        
+  
+       <property name="name" value="ajju"/>
+        
+        
+        <property name="phone" >
+        
+        <list>
+        <value>7828680651</value>
+        <value>9981090759</value>
+        <value>8085274949</value>
+        <value>9407082806</value>
+        <value>null</value>
+        </list>
+
+        </property>
+        
+        <property name="addess">
+        
+        <set>
+        <value>Indore</value>
+        <value>Bhopal</value>
+        <value>Balaghat</value>  
+        <value>Jabalpur</value>      
+        
+        </set>
+ 
+        </property>
+        
+        <property name="course">
+        
+        <map>
+        <entry key="java" value=" 2-month" />
+        <entry key ="DSA" value = " 5-month" />
+        </map>
+        
+        </property>
+        
+        
+        </bean>
+         
+         </beans>
